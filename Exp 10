@@ -2,12 +2,17 @@ Name : Vaibhav Vinod Sapaliya
 Div : COMP 3
 Roll no: 29
 
-Experiment No 10 : Binary Search Mathod
+Experiment No 10 : Binary Search Method
+
+Objective : Binary search is the search technique that works efficiently on sorted lists.
+Hence, to search an element into some list using the binary search technique, we must ensure that the list is sorted.
+
+Binary Search algorithm:
+The data structure must be sorted.
+Access to any element of the data structure takes constant time.
 
 Code:
-
 #include <stdio.h>
-
 
 int binarySearch(int arr[], int l, int r, int x)
 {
@@ -45,3 +50,7 @@ int main(void)
 							result);
 	return 0;
 }
+
+
+Output : 
+    Element is present at index 3
